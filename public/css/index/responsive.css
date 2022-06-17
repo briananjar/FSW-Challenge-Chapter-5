@@ -1,0 +1,551 @@
+/* MOBILE RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+    .bg-press-quote {
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-press-quote {
+        width: 100vw;
+    }
+
+    .newsletter-right .title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .newsletter-right .subtitle {
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .newsletter-right .description {
+        font-size: 13px;
+    }
+
+    .form-subscribe {
+        flex-direction: column;
+    }
+
+    .form-floating {
+        width: 100%;
+        padding-right: unset;
+        margin-bottom: 20px;
+    }
+
+    .form-button {
+        width: 100%;
+        height: 40px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer-top-1 {
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+
+    .footer-top-1 div {
+        margin-right: unset;
+        margin: 0 20px;
+    }
+
+    .footer-top-2 {
+        justify-content: center;
+    }
+
+    .icon-facebook {
+        margin: unset;
+        margin: 0 20px;
+    }
+
+    .icon-twitter {
+        margin: 0 20px;
+    }
+
+    .icon-youtube {
+        margin: 0 20px;
+    }
+
+    .icon-twitch {
+        margin: 0 20px;
+    }
+
+    footer .bottom {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Home Section */
+    .main-background {
+        height: 100vh;
+    }
+
+    .home-title {
+        width: 100%;
+        display: flex;
+    }
+
+    .home-title span {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .home-description {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-description span {
+        font-size: 16px;
+        line-height: 14px;
+    }
+
+    .home-button button {
+        padding: 10px 50px;
+        font-size: 12px;
+    }
+
+    /* The Games Section */
+    .the-games-background {
+        height: 100vh;
+    }
+
+    .the-games-content {
+        flex-direction: column;
+    }
+
+    .the-games-text {
+        margin-bottom: 30px;
+    }
+
+    .the-games-carousel {
+        width: 100%;
+    }
+
+    /* Features Section */
+    .features-background {
+        height: 100vh;
+    }
+
+    .mobile-card-glass {
+        padding: 30px 20px;
+        border: 1px solid #FFFFFF;
+        border-radius: 15px;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        overflow: scroll;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px) saturate(100%) contrast(90%) brightness(50%);
+        width: 80%;
+        height: 80%;
+    }
+
+    .features-subtitle {
+        font-size: 18px;
+        line-height: unset;
+    }
+
+    .features-title {
+        font-size: 42px;
+        line-height: unset;
+    }
+
+    .features-timeline .title {
+        font-size: 20px;
+        line-height: unset;
+    }
+
+    .features-timeline .description {
+        font-size: 14px;
+    }
+
+    /* System Requirements Section */
+    .system-background {
+        height: 100vh;
+    }
+
+    .system-title {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .system-item {
+        width: 100%;
+    }
+
+    .system-item .item-title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .table-title {
+        font-size: 18px;
+    }
+
+    .table-description {
+        font-size: 14px;
+    }
+
+    .table td {
+        padding: 10px 20px;
+    }
+
+    .item-table {
+        width: 100%;
+    }
+
+    /* Press Quote Section */
+    .press-quote {
+        height: 200vh;
+    }
+
+    .press-quote .bg-press-quote {
+        width: 100vw;
+    }
+
+    .press-quote-content {
+        flex-direction: column;
+    }
+
+    .pq-right {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .top-score-1 {
+        justify-content: unset;
+    }
+
+    .top-score-2 {
+        justify-content: unset;
+    }
+
+    .top-score-3 {
+        justify-content: unset;
+    }
+
+    .pq-left {
+        align-items: center;
+    }
+
+    .pq-left .title {
+        text-align: center;
+    }
+
+    .pq-left .description {
+        text-align: center;
+        width: 100%;
+    }
+
+    .pq-left button {
+        width: 80%;
+    }
+
+    /* Newsletter and Footer Section */
+    .newsletter {
+        height: 250vh;
+    }
+
+    .newsletter-content {
+        flex-direction: column;
+    }
+
+    .newsletter-right {
+        padding: 0px 20px;
+    }
+
+    .newsletter-right .subtitle {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .newsletter-right .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .newsletter-right .description {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .form-floating {
+        width: 100%;
+        padding-right: unset;
+    }
+
+    .form-subscribe {
+        flex-direction: column;
+    }
+
+    .form-button {
+        margin-top: 20px;
+        height: calc(3.5rem + 2px);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-button button {
+        width: 50%;
+    }
+
+    .footer-top {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-top-1 {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex: 1;
+        margin-bottom: 20px;
+    }
+
+    .footer-top-1 div {
+        margin-bottom: 15px;
+        margin-right: unset;
+        margin: 0 15px;
+        margin-bottom: 20px;
+    }
+
+    .footer-top-2 {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .icon-facebook {
+        margin: unset;
+        margin: 0 20px;
+    }
+
+    .icon-twitter {
+        margin: 0 20px;
+    }
+
+    .icon-youtube {
+        margin: 0 20px;
+    }
+
+    .icon-twitch {
+        margin: 0 20px;
+    }
+
+    footer .bottom {
+        font-size: 8px;
+    }
+
+    .policy {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .policy .bottom {
+        font-size: inherit !important;
+    }
+
+    .policy a {
+        font-size: 9px;
+    }
+
+    .bottom {
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .fa {
+        color: #FFFFFF;
+        font-size: 25px !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: unset;
+    }
+
+    .navbar-toggler {
+        border: none;
+        padding: unset;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: unset;
+    }
+
+    .navbar-collapse {
+        top: 85px;
+
+        padding: 30px 20px;
+        border: 1px solid #FFFFFF;
+        border-radius: 15px;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px) saturate(100%) contrast(90%) brightness(50%);
+        width: 50vw;
+        right: 20px;
+    }
+
+    .newsletter-left span {
+        width: 100vw;
+    }
+
+    .newsletter-left img {
+        width: 100vw;
+    }
+
+    .press-quote-content {
+        z-index: 1;
+    }
+
+    .bg-press-quote {
+        z-index: 0;
+    }
+
+    .newsletter {
+        height: 130vh;
+    }
+
+    .newsletter-left {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .features-subtitle {
+        font-size: 16px;
+    }
+    
+    .features-title {
+        font-size: 34px;
+    }
+
+    .the-games-text-bottom {
+        font-size: 44px;
+    }
+
+    .the-games-text-top {
+        font-size: 20px;
+    }
+
+    .features-timeline .title {
+        font-size: 17px;
+    }
+
+    .system-item .item-title {
+        font-size: 32px;
+    }
+
+    .table td {
+        padding: 5px 10px;
+    }
+
+    .table-title {
+        font-size: 15px;
+    }
+
+    .table-description {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .pq-left .title {
+        font-size: 30px;
+    }
+
+    .pq-left .description {
+        font-size: 14px;
+    }
+    
+    .identity {
+        flex-direction: column;
+    }
+
+    .pq-name {
+        font-size: 19px;
+    }
+
+    .pq-job {
+        font-size: 13px;
+    }
+
+    .identity-photo {
+        margin-left: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .identity-photo, .background-photo, .photo-user {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .pq-comment {
+        font-size: 13px;
+    }
+
+    .pq-date {
+        font-size: 9px;
+    }
+
+    .press-quote-content {
+        padding: 1.5rem;
+        z-index: 1;
+    }
+
+    .bg-press-quote {
+        height: 200vh;
+        z-index: 0;
+    }
+
+    .newsletter-left {
+        display: none !important;
+    }
+
+    .newsletter-right .subtitle {
+        font-size: 13px;
+    }
+
+    .newsletter-right .title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .newsletter-right .description {
+        font-size: 10px;
+    }
+
+    .form-control {
+        font-size: 12px;
+    }
+
+    .form-button button {
+        font-size: 12px;
+    }
+
+    .form-floating>label {
+        font-size: 12px;
+    }
+
+    .form-floating>.form-control, .form-floating>.form-select {
+        height: 100%;
+    }
+
+    .newsletter-button {
+        height: 65%;
+    }
+
+    .newsletter {
+        height: 120vh;
+    }
+}
